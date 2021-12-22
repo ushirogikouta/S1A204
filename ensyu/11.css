@@ -1,10 +1,37 @@
 @charset "UTF-8";
 * {
-    /* ここにGoogle Fontsのfont-family */
+    font-family: 'Yusei Magic',sans-serif;
+    font-family: 'Kosugi Maru', sans-serif;
+font-family: 'Mochiy Pop One', sans-serif;
+font-family: 'Murecho', sans-serif;
 }
 p.gothic {
     font-family: YuGothic, "ヒラギノ角ゴ ProN W3", メイリオ, sans-serif;
 }
 p.mincho {
     font-family: YuMincho, "ヒラギノ明朝 ProN", HGS明朝E, serif;
+}
+.fontSize{
+    font-size: 16px;
+}
+.px{
+    font-size: 20px;
+}
+.em{
+    font-size: 2em;
+}
+.normal{
+    font-weight:normal;
+}
+.bold{
+    font-weight: hold;
+}
+p.left{
+    text-align: left;
+}
+p.center{
+    text-align: center;
+}
+p.right{
+    text-align: right;
 }

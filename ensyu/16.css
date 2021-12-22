@@ -8,15 +8,13 @@ div.solid, div.dotted, div.dashed, div.double {
   border-width: 6px;
   border-color: #f00;
 }
-/*ここから */
-div.solid {}
+div.solid { border-style: solid;}
 
-div.dotted {}
+div.dotted { border-style: dotted;}
 
-div.dashed {}
+div.dashed { border-style: dashed;}
 
-div.double {}
-/*ここまで */
+div.double { border-style: double;}
 p {
   text-align: center;
   margin: 40px 0;
@@ -26,7 +24,7 @@ p {
   width: 160px;
   padding: 6px;
   /*ここから */
-
+border: 4px solid #000;
   /*ここまで */
 }
 .second p {
@@ -38,11 +36,15 @@ p {
 }
 /*ここから */
 /* 左辺・下辺のみ */
-p.leftBottom {}
-
+p.leftBottom {
+  border-left: 10px solid #f00;
+  border-bottom: 2px solid #f00;
+}
 /* 上下に二重線 */
 p.TopBottom {}
-
+  border-top: 3px double #000;
+  border-bottom: 3px doule #000;
+}
 /* 1辺ずつ色を変える */
 p.fourColors {}
 /*ここまで */

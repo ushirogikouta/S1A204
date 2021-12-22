@@ -1,7 +1,20 @@
 @charset "UTF-8";
-/*ここから */
+*{
+  box-sizing: border-box;
+}
+.contest{
+  box-sizing: contest-box;
+}
+.first p{
+  width: 300px;
+padding: 20px;
+border: 6px solid #00f;
+margin: 30px auto;
+background-color: #eee;
+text-align: 
+center;
+}
 
-/*ここまで */
 .second {
   background-color: #ffc;
 }
@@ -9,9 +22,14 @@
   background-color: #f0c;
   color: #fff;
 }
-/*ここから */
-
-/*ここまで */
+.px{
+  width: 100px;
+  height: 100px;
+}
+.per{
+  width: 50%;
+  height: 50%;
+}
 p.parent {
   background-color: transparent;
   text-align: right;
@@ -28,6 +46,9 @@ p.parent {
   width: 80%;
   background: #ffc;
 }
-/*ここから */
-
-/*ここまで */
+p.hamidasu{
+  height: 100px;
+}
+p.hamidasanai{
+  height: auto;
+}
