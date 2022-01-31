@@ -48,9 +48,9 @@ p.TopBottom {
 /* 1辺ずつ色を変える */
 p.fourColors {
   border-top: 10px solid #99f;
-  border-top: 10px solid #00a;
-  border-top: 10px solid #ccf;
-  border-top: 10px solid #55f;
+  border-bottom: 10px solid #00a;
+  border-left: 10px solid #ccf;
+  border-right: 10px solid #55f;
 }
 /*ここまで */
 .third p {
